@@ -1,0 +1,189 @@
+/* ------------------------ fuentes --------------------------  
+font-family: "Libre Caslon Text", serif;*/
+
+/* Colores 
+amarillo header #FFC900
+azul botones main #0068FF
+*/
+html {
+    font-family: "Libre Caslon Text", serif;
+}
+
+/* ------------------------ Header -------------------------- */
+.fondo-nav {
+    background-color: #FFC900;
+}
+
+.center-nav {
+    justify-content: center;
+}
+
+.texto-nav {
+    font-size: 1.5rem;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a {
+    list-style: none;
+    color: rgb(3, 0, 0);
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+/* ------------------------ Main -------------------------- */
+.fondo-principal {
+    box-sizing: content-box;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(../medios-superautos/toyota-corolla-0km/exterior3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo-main {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: #ff1500;
+}
+
+.boton-main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60vh;
+
+}
+
+button {
+    border: 0;
+    background-color: #FF8500;
+    border-radius: 8px;
+    padding: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.section-main-index {
+    margin-left: 10px;
+    display: grid;
+    grid-template-areas:
+        "titulo titulo titulo"
+        "parrafo-1 parrafo-1 imagen-1"
+        "imagen-2 parrafo-2 parrafo-2";
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 80px 200px 250px ;
+    gap: 5px;
+    justify-items: center;
+}
+.subtitulo-index {
+    grid-area: titulo;
+    color: #FF8500;
+    
+}
+.parrafo-1 {
+    grid-area: parrafo-1;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.parrafo-2 {
+    grid-area: parrafo-2;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.imagen-1 {
+    grid-area: imagen-1;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen-2 {
+    grid-area: imagen-2;
+        width: 100%;
+    height: 100%;
+}
+/* ------------------------ usados -------------------------- */
+.section-usados{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 20px;
+}
+#Buscador {
+  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+  background-size: 24px;
+  width: 500px;
+  border: transparent;
+  border-bottom: solid 1px #ccc;
+  padding: 10px 10px 10px 30px;
+  outline: none;
+}
+/* ------------------------ contacto -------------------------- */
+.formularo-contacto-tex{
+   display: flex;
+   color: #ff7700;
+}
+.tex-form{
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: x-large;
+}
+
+input{
+    width: 250px;
+    padding: 5px;
+    margin: 5px;
+
+}
+.card-persona{
+   margin-left: 50%
+}
+/* ------------------------ financiacion -------------------------- */
+.titulo-finan {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #ff7700;
+}
+.finan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.finan-botton{
+    align-items: center;
+}
+.p-finan{
+        font-size: 1.2rem;
+    line-height: 1.5;
+}
+/* ------------------------ Footer -------------------------- */
+footer {
+    background-color: #FFC900;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-redes {
+    width: 40px;
+    padding: 4px;
+}
+
+.logo-texto {
+    width: 400px;
+    padding: 20px;
+    padding-left: 0px;
+}
