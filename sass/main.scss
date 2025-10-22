@@ -1,0 +1,15 @@
+
+// Variables
+    @use "./generales/variables"; 
+
+// Generales
+    @use "./generales/header";
+    @use "./generales/footer";
+// Paginas
+    @use "./pages/index";
+    @use "./pages/usados";
+    @use "./pages/cerokm";
+    @use "./pages/financiacion";
+    @use "./pages/contacto";
+// Media queris
+@use "./generales/mediaq";

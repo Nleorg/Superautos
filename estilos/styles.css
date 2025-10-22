@@ -5,6 +5,11 @@ font-family: "Libre Caslon Text", serif;*/
 amarillo header #FFC900
 azul botones main #0068FF
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 html {
     font-family: "Libre Caslon Text", serif;
 }
@@ -46,6 +51,8 @@ a {
     background-image: url(../medios-superautos/toyota-corolla-0km/exterior3.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+/*     background-attachment: fixed;
+ */
 }
 
 .titulo-main {

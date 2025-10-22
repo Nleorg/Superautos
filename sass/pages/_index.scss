@@ -1,0 +1,95 @@
+//Variables globales
+@use "../generales/variables" as*;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $font;
+}
+
+.fondo-principal {
+    box-sizing: content-box;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(../medios-superautos/toyota-corolla-0km/exterior3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*     background-attachment: fixed*/
+}
+
+.titulo-main {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: $srojo;
+
+}
+
+.boton-main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60vh;
+
+    button {
+        border: 0;
+        background-color: $snaraja;
+        border-radius: 8px;
+        padding: 20px;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+}
+
+.section-main-index {
+    margin-left: 10px;
+    display: grid;
+    grid-template-areas:
+        "titulo titulo titulo"
+        "parrafo-1 parrafo-1 imagen-1"
+        "imagen-2 parrafo-2 parrafo-2";
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 80px 200px 250px;
+    gap: 5px;
+    justify-items: center;
+}
+
+.subtitulo-index {
+    grid-area: titulo;
+    color: $snaraja;
+
+}
+
+.grid-par {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.parrafo-1 {
+    grid-area: parrafo-1;
+    @extend .grid-par;
+}
+
+.parrafo-2 {
+    grid-area: parrafo-2;
+    @extend .grid-par;
+}
+
+.grid-img {
+/*     width: 100%;
+ */    height: 100%;
+}
+
+.imagen-1 {
+    grid-area: imagen-1;
+    @extend .grid-img;
+}
+
+.imagen-2 {
+    grid-area: imagen-2;
+    @extend .grid-img;
+}

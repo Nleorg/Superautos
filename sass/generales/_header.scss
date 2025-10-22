@@ -1,0 +1,30 @@
+//Variables globales 
+@use "../generales/variables" as*;
+
+.fondo-nav {
+    background-color: $samarillo;
+}
+
+.center-nav {
+    justify-content: center;
+}
+
+.texto-nav {
+    font-size: 1.5rem;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a {
+    list-style: none;
+    color: $snegro;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}

@@ -1,0 +1,22 @@
+//Variables globales
+@use "../generales/variables" as*;
+
+
+footer {
+    background-color: $samarillo;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-redes {
+    width: 40px;
+    padding: 4px;
+}
+
+.logo-texto {
+    width: 400px;
+    padding: 20px;
+    padding-left: 0px;
+}
