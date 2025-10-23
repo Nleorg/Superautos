@@ -27,6 +27,7 @@ html {
     justify-content: center;
     padding: 50px;
     color: $srojo;
+    font-size: 4rem;
 
 }
 
@@ -85,11 +86,12 @@ html {
     width: 80%;
     height: 100%;
     border-radius: 5%;
-    
+    object-fit: cover;
 }
 
 .imagen-1 {
     grid-area: imagen-1;
+    
     @extend .grid-img;
 }
 

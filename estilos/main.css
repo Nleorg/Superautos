@@ -26,6 +26,10 @@ a {
   text-transform: capitalize;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 footer {
   background-color: #FFC900;
   display: flex;
@@ -71,6 +75,7 @@ html {
   justify-content: center;
   padding: 50px;
   color: #ff1500;
+  font-size: 4rem;
 }
 
 .boton-main {
@@ -120,6 +125,7 @@ html {
   width: 80%;
   height: 100%;
   border-radius: 5%;
+  object-fit: cover;
 }
 
 .imagen-1 {
@@ -209,11 +215,10 @@ button {
   margin: 10px;
 }
 
-@media only screen and (min-width: 1140px) {
-  /*    .fondo-principal{
-      min-height: 100vh;
-      min-width: 100vw;
-     } */
+@media only screen and (min-width: 481) and (max-width: 978px) {
+  .titulo-main {
+    font-size: 3 2rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
