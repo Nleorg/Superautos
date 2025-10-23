@@ -4,7 +4,7 @@
 .formularo-contacto-tex {
     display: flex;
     color: $snaraja;
-
+    padding: 10px;
     .tex-form {
         display: block;
         width: 200px;
@@ -12,13 +12,19 @@
         padding-top: 8px;
         font-size: x-large;
     }
+}  
+.contac{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-input {
+.input {
     width: 250px;
     padding: 5px;
     margin: 5px;
 
-}
-.card-persona {
-    margin-left: 50%
+} 
+.card-marging {
+    margin: 10px;
 }

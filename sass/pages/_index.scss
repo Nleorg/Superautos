@@ -13,11 +13,12 @@ html {
 
 .fondo-principal {
     box-sizing: content-box;
-    min-height: 100vh;
-    min-width: 100vw;
+    min-height: 100%;
+    min-width: 100%;
     background-image: url(../medios-superautos/toyota-corolla-0km/exterior3.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     /*     background-attachment: fixed*/
 }
 
@@ -56,6 +57,7 @@ html {
     grid-template-rows: 80px 200px 250px;
     gap: 5px;
     justify-items: center;
+    margin-bottom: 10px;
 }
 
 .subtitulo-index {
@@ -80,8 +82,10 @@ html {
 }
 
 .grid-img {
-/*     width: 100%;
- */    height: 100%;
+    width: 80%;
+    height: 100%;
+    border-radius: 5%;
+    
 }
 
 .imagen-1 {
